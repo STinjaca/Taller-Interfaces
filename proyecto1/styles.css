@@ -35,8 +35,9 @@ body {
 }
 .stops {
     position: absolute;
-    top: 33vw;
-    left: 41vw
+    top: 73%; /* Coloca el elemento a la mitad de la altura del contenedor */
+    left: 50%; /* Coloca el elemento a la mitad del ancho del contenedor */
+    transform: translate(-50%, -50%); /* Centra el elemento correctamente */
 }
 
 .stop {

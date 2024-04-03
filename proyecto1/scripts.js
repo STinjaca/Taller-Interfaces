@@ -164,6 +164,7 @@ botonReiniciar.addEventListener("click", function() {
         });
         iniciado = false
         puntaje = 0
+        puntuacion.textContent = "Puntuación: " + puntaje
     }
 
 });
