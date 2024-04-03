@@ -1,5 +1,7 @@
 
 var content = document.querySelector(".content")
+var factorAjuste = window.innerWidth / 1536;
+console.log(factorAjuste)
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -10,13 +12,17 @@ function getRandomInt(min, max) {
 const randomNumber = getRandomInt(1, 3);
 function crearCompetidor(i){
     const dis = new Map();
-    dis.set(1, ["a","630px", "images/discoVerde.png"]) 
-    dis.set(2, ["s","687px", "images/discoRojo.png"])
-    dis.set(3, ["d","744px", "images/discoAmarillo.png"])
-    dis.set(4, ["f","799px", "images/discoAzul.png"])
-    dis.set(5, ["g","857px", "images/discoNaranja.png"])
+    dis.set(1, ["a", 630, "images/discoVerde.png"]) 
+    dis.set(2, ["s", 687, "images/discoRojo.png"])
+    dis.set(3, ["d", 744, "images/discoAmarillo.png"])
+    dis.set(4, ["f", 799, "images/discoAzul.png"])
+    dis.set(5, ["g", 857, "images/discoNaranja.png"])
 
-    var [letra, margen, imagen] = dis.get(getRandomInt(1, 5));
+    var valor = dis.get(getRandomInt(1, 5));
+
+    var letra = valor[0];
+    var margen = valor[1] * 1 + "px"; // Aplica el cálculo proporcional
+    var imagen = valor[2];
     var competidorDiv = document.createElement("div");
     competidorDiv.setAttribute("class", "circulo1");
     competidorDiv.dataset.distancia = 0;
@@ -28,7 +34,6 @@ function crearCompetidor(i){
     competidorImg.style.marginLeft = margen;
     competidorImg.style.marginTop = "0px";
     competidorDiv.appendChild(competidorImg)
-    // competidorDiv.innerHTML = i
 }
 
 

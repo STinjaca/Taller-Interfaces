@@ -36,11 +36,11 @@ body {
 .stops {
     position: absolute;
     top: 510px;
-    left: 630px;}
+    left: 41vw;}
 
 .stop {
     width: 50px; 
     height: 50px;
-    margin-right: 2.9px; /* Espacio entre cada imagen */
+    margin-right: 0.2vw; /* Espacio entre cada imagen */
 }
 
