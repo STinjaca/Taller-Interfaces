@@ -35,8 +35,9 @@ body {
 }
 .stops {
     position: absolute;
-    top: 510px;
-    left: 41vw;}
+    top: 33vw;
+    left: 41vw
+}
 
 .stop {
     width: 50px; 
