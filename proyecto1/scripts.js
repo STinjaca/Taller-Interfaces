@@ -41,8 +41,8 @@ teclas.set("b", false)
 teclas.set("c", false)
 teclas.set("d", false)
 teclas.set("e", false)
-teclas.set("pausa", false)
 iniciado = false
+pausa = false
 
 function start(){
 
@@ -165,13 +165,13 @@ botonReiniciar.addEventListener("click", function() {
 
 const botonPausaReaunar = document.getElementById("pausareaunar");
 botonPausaReaunar.addEventListener("click", function() {
-    if (teclas.get("pausa")){
+    if (pausa){
         start()
-        teclas.set("pausa", false)
+        pausa = false
     } else {
         clearInterval(intervalo)
         clearInterval(generacion)
-        teclas.set("pausa", true)
+        pausa = true
     }
 
 });
