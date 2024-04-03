@@ -10,11 +10,11 @@ function getRandomInt(min, max) {
 const randomNumber = getRandomInt(1, 3);
 function crearCompetidor(i){
     const dis = new Map();
-    dis.set(1, ["a","630px","discoVerde.png"]) 
-    dis.set(2, ["s","687px", "discoRojo.png"])
-    dis.set(3, ["d","744px", "discoAmarillo.png"])
-    dis.set(4, ["f","799px", "discoAzul.png"])
-    dis.set(5, ["g","857px", "discoNaranja.png"])
+    dis.set(1, ["a","630px", "images/discoVerde.png"]) 
+    dis.set(2, ["s","687px", "images/discoRojo.png"])
+    dis.set(3, ["d","744px", "images/discoAmarillo.png"])
+    dis.set(4, ["f","799px", "images/discoAzul.png"])
+    dis.set(5, ["g","857px", "images/discoNaranja.png"])
 
     var [letra, margen, imagen] = dis.get(getRandomInt(1, 5));
     var competidorDiv = document.createElement("div");
@@ -41,6 +41,8 @@ teclas.set("b", false)
 teclas.set("c", false)
 teclas.set("d", false)
 teclas.set("e", false)
+teclas.set("pausa", false)
+iniciado = false
 
 function start(){
 
@@ -61,7 +63,7 @@ function start(){
                 puntaje-=1
                 puntuacion.textContent = "Puntuación: " + puntaje
             } else {
-                if (teclas.get(elemento.dataset.letra) && margenActual >= 480 && margenActual <= 520){
+                if (teclas.get(elemento.dataset.letra) && margenActual >= 450 && margenActual <= 500){
                     console.log("SI")
                     elemento.remove();  
                     teclas.set(elemento.dataset.letra, false) 
@@ -91,53 +93,87 @@ function start(){
 }
 
 document.addEventListener("keyup", function (evt){
-    console.log(evt.key)
-    letra = ""
-    if(evt.key === "a" || evt.key ==="A"){
-        teclas.set("a", true)
-        letra = "a"
-    }
-    if(evt.key === "s" || evt.key ==="S"){
-        teclas.set("s", true)
-        letra = "s"
-    }
-    if(evt.key === "d" || evt.key ==="D"){
-        teclas.set("d", true)
-        letra = "d"
-    }
-    if(evt.key === "f" || evt.key ==="F"){
-        teclas.set("f", true)
-        letra = "f"
-    }
-    if(evt.key === "g" || evt.key ==="G"){
-        teclas.set("g", true)
-        letra = "g"
-    }
-
-    if(evt.key === "p" || evt.key ==="P"){
-        if (teclas.get("p")){
-            start()
-            teclas.set("p", false)
-        } else {
-            clearInterval(intervalo)
-            clearInterval(generacion)
-            teclas.set("p", true)
+    if(iniciado){
+        letra = ""
+        if(evt.key === "a" || evt.key ==="A"){
+            teclas.set("a", true)
+            letra = "a"
         }
-
-    }
-
-    if(letra != ""){
-        var stop = document.querySelector(".stop." + letra);
-        if (stop) {
-            stop.style.opacity = "0.1"; // Cambiar la opacidad del stop al 10%
-            setTimeout(function() {
-                stop.style.opacity = "1"; // Revertir la opacidad del stop a 100% después de 200 milisegundos
-            }, 200);
-    }
+        if(evt.key === "s" || evt.key ==="S"){
+            teclas.set("s", true)
+            letra = "s"
+        }
+        if(evt.key === "d" || evt.key ==="D"){
+            teclas.set("d", true)
+            letra = "d"
+        }
+        if(evt.key === "f" || evt.key ==="F"){
+            teclas.set("f", true)
+            letra = "f"
+        }
+        if(evt.key === "g" || evt.key ==="G"){
+            teclas.set("g", true)
+            letra = "g"
+        }
+    
+        if(letra != ""){
+            reproducirAudio(letra)
+            var stop = document.querySelector(".stop." + letra);
+            if (stop) {
+                stop.style.opacity = "0.1";
+                setTimeout(function() {
+                    stop.style.opacity = "1"; 
+                }, 200);
+            }
+        }
     }
 
 })
 
+function reproducirAudio(letra) {
+    var ruta = "audios/" + letra + ".mp3"; 
+
+    var audio = new Audio(ruta);
+    audio.setAttribute("id", "notaAudio");
+
+    audio.play();
+}
+
+const botonInciar = document.getElementById("iniciar");
+botonInciar.addEventListener("click", function() {
+    if (!iniciado){
+        start()
+        iniciado = true
+    } 
+});
 
 
-start()
+const botonReiniciar = document.getElementById("reiniciar");
+botonReiniciar.addEventListener("click", function() {
+    if (iniciado){
+        clearInterval(intervalo)
+        clearInterval(generacion)
+        var elementos = document.querySelectorAll(".circulo1");
+        elementos.forEach(function(elemento) {
+            elemento.remove();
+        });
+        iniciado = false
+        puntaje = 0
+    }
+
+});
+
+const botonPausaReaunar = document.getElementById("pausareaunar");
+botonPausaReaunar.addEventListener("click", function() {
+    if (teclas.get("pausa")){
+        start()
+        teclas.set("pausa", false)
+    } else {
+        clearInterval(intervalo)
+        clearInterval(generacion)
+        teclas.set("pausa", true)
+    }
+
+});
+
+
