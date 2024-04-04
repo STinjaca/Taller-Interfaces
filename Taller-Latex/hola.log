@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.4)  4 APR 2024 02:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.4)  4 APR 2024 03:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -122,139 +122,44 @@ Package pdftex.def Info: images/javaTabla.jpg  used on input line 20.
  (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 26.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 28.
  (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 30.
  (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 29.
-
-Overfull \hbox (3.00354pt too wide) in paragraph at lines 29--31
-[][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:31: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31         // Añadimos 
-                          elementos al ArrayList
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:31: LaTeX Error: Invalid UTF-8 byte "B1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31         // Añadimos 
-                          elementos al ArrayList
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[1
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
+ [1
 
 {C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/javaTabla.jpg>]
-Overfull \hbox (105.00458pt too wide) in paragraph at lines 43--44
-[][][][][][][][][][][][][][][][][][][][][][][] 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 46.
+<images/vsjavaTabla.png, id=14, 197.98969pt x 111.41624pt>
+File: images/vsjavaTabla.png Graphic file (type png)
+<use images/vsjavaTabla.png>
+Package pdftex.def Info: images/vsjavaTabla.png  used on input line 49.
+(pdftex.def)             Requested size: 172.5pt x 97.07414pt.
+<images/javaGrafica.png, id=16, 362.3136pt x 217.7736pt>
+File: images/javaGrafica.png Graphic file (type png)
+<use images/javaGrafica.png>
+Package pdftex.def Info: images/javaGrafica.png  used on input line 50.
+(pdftex.def)             Requested size: 172.5pt x 103.68277pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 49--51
+[] [] 
  []
 
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:44: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44     }
-              
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:44: LaTeX Error: Invalid UTF-8 byte "A0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44     }
-              
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:44: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44     }
-              
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:44: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44     }
-              
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:44: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44     }
-              
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-<images/golangTabla.jpg, id=14, 386.94562pt x 228.855pt>
+<images/golangTabla.jpg, id=17, 386.94562pt x 228.855pt>
 File: images/golangTabla.jpg Graphic file (type jpg)
 <use images/golangTabla.jpg>
-Package pdftex.def Info: images/golangTabla.jpg  used on input line 57.
+Package pdftex.def Info: images/golangTabla.jpg  used on input line 56.
 (pdftex.def)             Requested size: 172.5pt x 102.02348pt.
 (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -264,87 +169,114 @@ File: lstlang2.sty 2023/02/27 1.9 listings language file
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 )
 
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:60: Package Listings Error: Couldn't load requested language.
+c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:62: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 ...ang, caption=Ejemplo de código en Golang]
+l.62 ...ang, caption=Ejemplo de código en Golang]
                                                   
 The following languages weren't loadable:
     ,golang$
 This may cause errors in the sequel.
 
 
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:60: Package Listings Error: language golang undefined.
+c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:62: Package Listings Error: language golang undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 ...ang, caption=Ejemplo de código en Golang]
+l.62 ...ang, caption=Ejemplo de código en Golang]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[2 <./images/golangTabla.jpg>]
-Overfull \hbox (3.00354pt too wide) in paragraph at lines 73--74
-[][][][][][][][][][][][][][][][] 
+[2 <./images/vsjavaTabla.png> <./images/javaGrafica.png> <./images/golangTabla.jpg>]
+<images/golangvsjavaTabla.png, id=24, 341.02406pt x 125.71968pt>
+File: images/golangvsjavaTabla.png Graphic file (type png)
+<use images/golangvsjavaTabla.png>
+Package pdftex.def Info: images/golangvsjavaTabla.png  used on input line 99.
+(pdftex.def)             Requested size: 172.5pt x 63.59247pt.
+<images/golangvsjavaGrafica.png, id=25, 362.3136pt x 217.7736pt>
+File: images/golangvsjavaGrafica.png Graphic file (type png)
+<use images/golangvsjavaGrafica.png>
+Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 100.
+(pdftex.def)             Requested size: 172.5pt x 103.68277pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 99--101
+[] [] 
  []
 
-<images/pythonTabla.jpg, id=18, 400.49625pt x 289.08pt>
+[3]
+<images/pythonTabla.jpg, id=29, 400.49625pt x 289.08pt>
 File: images/pythonTabla.jpg Graphic file (type jpg)
 <use images/pythonTabla.jpg>
-Package pdftex.def Info: images/pythonTabla.jpg  used on input line 83.
+Package pdftex.def Info: images/pythonTabla.jpg  used on input line 108.
 (pdftex.def)             Requested size: 172.5pt x 124.5137pt.
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) [3 <./images/pythonTabla.jpg>]
-<images/c++Tabla.jpg, id=22, 394.47375pt x 251.43938pt>
+) [4 <./images/golangvsjavaTabla.png> <./images/golangvsjavaGrafica.png> <./images/pythonTabla.jpg>] [5]
+<images/pythonvsjavaTabla.png, id=38, 386.94562pt x 121.20282pt>
+File: images/pythonvsjavaTabla.png Graphic file (type png)
+<use images/pythonvsjavaTabla.png>
+Package pdftex.def Info: images/pythonvsjavaTabla.png  used on input line 162.
+(pdftex.def)             Requested size: 172.5pt x 54.03217pt.
+File: images/golangvsjavaGrafica.png Graphic file (type png)
+<use images/golangvsjavaGrafica.png>
+Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 163.
+(pdftex.def)             Requested size: 172.5pt x 103.68277pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 162--164
+[] [] 
+ []
+
+<images/c++Tabla.jpg, id=39, 394.47375pt x 251.43938pt>
 File: images/c++Tabla.jpg Graphic file (type jpg)
 <use images/c++Tabla.jpg>
-Package pdftex.def Info: images/c++Tabla.jpg  used on input line 101.
+Package pdftex.def Info: images/c++Tabla.jpg  used on input line 169.
 (pdftex.def)             Requested size: 172.5pt x 109.95073pt.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-)
-Overfull \hbox (147.005pt too wide) in paragraph at lines 109--110
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+) [6 <./images/pythonvsjavaTabla.png> <./images/c++Tabla.jpg>]
+<images/c++vsjavaTabla.png, id=44, 385.44pt x 140.77594pt>
+File: images/c++vsjavaTabla.png Graphic file (type png)
+<use images/c++vsjavaTabla.png>
+Package pdftex.def Info: images/c++vsjavaTabla.png  used on input line 204.
+(pdftex.def)             Requested size: 172.5pt x 63.00273pt.
+<images/c++vsjavaGrafica.png, id=45, 362.3136pt x 217.7736pt>
+File: images/c++vsjavaGrafica.png Graphic file (type png)
+<use images/c++vsjavaGrafica.png>
+Package pdftex.def Info: images/c++vsjavaGrafica.png  used on input line 205.
+(pdftex.def)             Requested size: 172.5pt x 103.68277pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 204--206
+[][] [] 
  []
 
-
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 110--111
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.00354pt too wide) in paragraph at lines 111--112
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-[4 <./images/c++Tabla.jpg>] (hola.aux)
+[7 <./images/c++vsjavaTabla.png> <./images/c++vsjavaGrafica.png>] (hola.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3386 strings out of 474486
- 51280 string characters out of 5743756
- 1947542 words of memory out of 5000000
- 25669 multiletter control sequences out of 15000+600000
- 562670 words of font info for 51 fonts, out of 8000000 for 9000
+ 3443 strings out of 474486
+ 53138 string characters out of 5743756
+ 1951542 words of memory out of 5000000
+ 25726 multiletter control sequences out of 15000+600000
+ 562659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,525b,1656s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on hola.pdf (4 pages, 264485 bytes).
+ 57i,6n,65p,525b,1719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on hola.pdf (7 pages, 332558 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
