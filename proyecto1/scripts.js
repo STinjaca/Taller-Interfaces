@@ -62,9 +62,8 @@ function start() {
             var nuevaMargenTop = distanciaActual * 10;
             var margenActual = elemento.offsetTop; // Posición relativa respecto al contenedor
             var contenedor = content.offsetHeight; // Altura del contenedor
-            console.log(contenedor)
-            var margenMinimo = 450 * factorAjuste; // Margen superior mínimo relativo
-            var margenMaximo = 500 * factorAjuste; // Margen superior máximo relativo
+            var margenMinimo = (contenedor/10)*6.3;
+            var margenMaximo = (contenedor/10)*7; // Margen superior máximo relativo
 
             if (nuevaMargenTop > (contenedor/10)*7) {
                 elemento.remove();
