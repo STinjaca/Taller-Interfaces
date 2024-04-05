@@ -12,26 +12,26 @@ function getRandomInt(min, max) {
 const randomNumber = getRandomInt(1, 3);
 function crearCompetidor(i){
     const dis = new Map();
-    dis.set(1, ["a", 630, "images/discoVerde.png"]) 
-    dis.set(2, ["s", 687, "images/discoRojo.png"])
-    dis.set(3, ["d", 744, "images/discoAmarillo.png"])
-    dis.set(4, ["f", 799, "images/discoAzul.png"])
-    dis.set(5, ["g", 857, "images/discoNaranja.png"])
+    dis.set(1, ["a", 40.9, "images/discoVerde.png"]) 
+    dis.set(2, ["s", 44.7, "images/discoRojo.png"])
+    dis.set(3, ["d", 48.5, "images/discoAmarillo.png"])
+    dis.set(4, ["f", 52.2, "images/discoAzul.png"])
+    dis.set(5, ["g", 55.9, "images/discoNaranja.png"])
 
     var valor = dis.get(getRandomInt(1, 5));
 
     var letra = valor[0];
-    var margen = valor[1] * 1 + "px"; // Aplica el cálculo proporcional
+    var left = valor[1] + "%"; // Aplica el cálculo proporcional
     var imagen = valor[2];
     var competidorDiv = document.createElement("div");
     competidorDiv.setAttribute("class", "circulo1");
     competidorDiv.dataset.distancia = 0;
+    competidorDiv.dataset.letra = letra;
+    competidorDiv.style.left = left;
     content.appendChild(competidorDiv)
     var competidorImg = document.createElement("img");
     competidorImg.setAttribute("src", imagen);
-    competidorImg.setAttribute("width", "50px");
-    competidorDiv.dataset.letra = letra;
-    competidorImg.style.marginLeft = margen;
+    competidorImg.setAttribute("width", "50vw");
     competidorImg.style.marginTop = "0px";
     competidorDiv.appendChild(competidorImg)
 }
@@ -49,53 +49,53 @@ teclas.set("e", false)
 iniciado = false
 pausa = false
 
-function start(){
-
+function start() {
     var puntuacion = document.getElementById("puntuacion");
-    generacion = setInterval(function(){
+    generacion = setInterval(function() {
         crearCompetidor(1);
-        }, 1000)
+    }, 1000);
 
-    intervalo = setInterval(function (){
-
+    intervalo = setInterval(function() {
         var elementos = document.querySelectorAll(".circulo1");
-        elementos.forEach(function (elemento){
+        elementos.forEach(function(elemento) {
             var distanciaActual = parseInt(elemento.dataset.distancia);
-            var margenActual = parseInt(elemento.style.marginTop.replace("px", ""));
             var nuevaMargenTop = distanciaActual * 10;
-            if (nuevaMargenTop > 590) {
+            var margenActual = elemento.offsetTop; // Posición relativa respecto al contenedor
+            var contenedor = content.offsetHeight; // Altura del contenedor
+            console.log(contenedor)
+            var margenMinimo = 450 * factorAjuste; // Margen superior mínimo relativo
+            var margenMaximo = 500 * factorAjuste; // Margen superior máximo relativo
+
+            if (nuevaMargenTop > (contenedor/10)*7) {
                 elemento.remove();
-                puntaje-=1
-                puntuacion.textContent = "Puntuación: " + puntaje
+                puntaje -= 1;
+                puntuacion.textContent = "Puntuación: " + puntaje;
             } else {
-                if (teclas.get(elemento.dataset.letra) && margenActual >= 450 && margenActual <= 500){
-                    console.log("SI")
-                    elemento.remove();  
-                    teclas.set(elemento.dataset.letra, false) 
-                    puntaje+=1
-                    puntuacion.textContent = "Puntuación: " + puntaje
-                } 
-                else {
+                if (teclas.get(elemento.dataset.letra) && margenActual >= margenMinimo && margenActual <= margenMaximo) {
+                    console.log("SI");
+                    elemento.remove();
+                    teclas.set(elemento.dataset.letra, false);
+                    puntaje += 1;
+                    puntuacion.textContent = "Puntuación: " + puntaje;
+                } else {
                     elemento.style.marginTop = nuevaMargenTop + "px";
                     elemento.dataset.distancia = distanciaActual + 1;
-                    elemento.style.marginLeft = elemento.dataset.top;
                 }
             }
-        })
+        });
 
-    teclas.forEach(function(valor, clave) {
-        if (valor === true) {
-            puntaje-=1
-            puntuacion.textContent = "Puntuación: " + puntaje
-            teclas.set(clave, false); // Establecer el valor en falso
-        }
-    });
-
-}, 100);
-
-    
-
+        teclas.forEach(function(valor, clave) {
+            if (valor === true) {
+                puntaje -= 1;
+                puntuacion.textContent = "Puntuación: " + puntaje;
+                teclas.set(clave, false); // Establecer el valor en falso
+            }
+        });
+    }, 100);
 }
+
+
+
 
 document.addEventListener("keyup", function (evt){
     if(iniciado){
