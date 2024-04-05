@@ -48,12 +48,13 @@ teclas.set("d", false)
 teclas.set("e", false)
 iniciado = false
 pausa = false
+velocidad= 100
 
 function start() {
     var puntuacion = document.getElementById("puntuacion");
     generacion = setInterval(function() {
         crearCompetidor(1);
-    }, 1000);
+    }, velocidad*10);
 
     intervalo = setInterval(function() {
         var elementos = document.querySelectorAll(".circulo1");
@@ -90,7 +91,7 @@ function start() {
                 teclas.set(clave, false); // Establecer el valor en falso
             }
         });
-    }, 100);
+    }, velocidad);
 }
 
 
@@ -147,6 +148,7 @@ const botonInciar = document.getElementById("iniciar");
 botonInciar.addEventListener("click", function() {
     if (!iniciado){
         start()
+        velocidad = 100
         iniciado = true
     } 
 });
@@ -177,6 +179,28 @@ botonPausaReaunar.addEventListener("click", function() {
         clearInterval(intervalo)
         clearInterval(generacion)
         pausa = true
+    }
+
+});
+const botonAumentar = document.getElementById("aumentar");
+botonAumentar.addEventListener("click", function() {
+    if (velocidad > 10){
+        velocidad = velocidad*0.8
+        clearInterval(intervalo)
+        clearInterval(generacion)
+        start()
+        console.log(velocidad)
+    }
+
+});
+
+const botonDisminuir = document.getElementById("disminuir");
+botonDisminuir.addEventListener("click", function() {
+    if (velocidad < 500){
+        velocidad = velocidad/0.8
+        clearInterval(intervalo)
+        clearInterval(generacion)
+        start()
     }
 
 });
