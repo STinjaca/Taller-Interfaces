@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.4)  4 APR 2024 03:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.5)  5 APR 2024 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex
-(c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex
+**c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex
+(c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
@@ -23,29 +23,29 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count195
 \lst@gtempboxa=\box51
 \lst@token=\toks20
@@ -58,16 +58,16 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \lst@newlines=\count199
 \lst@lineno=\count266
 \lst@maxwidth=\dimen146
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count267
 \lst@skipnumbers=\count268
 \lst@framebox=\box52
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count269
 \l__pdf_internal_box=\box53
@@ -88,7 +88,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
 \scratchdimen=\dimen147
@@ -101,10 +101,10 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count274
 \makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks22
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count276
@@ -117,78 +117,78 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <images/javaTabla.jpg, id=1, 364.36125pt x 362.85562pt>
 File: images/javaTabla.jpg Graphic file (type jpg)
 <use images/javaTabla.jpg>
-Package pdftex.def Info: images/javaTabla.jpg  used on input line 20.
+Package pdftex.def Info: images/javaTabla.jpg  used on input line 22.
 (pdftex.def)             Requested size: 172.5pt x 171.7824pt.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 28.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 30.
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 30.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 32.
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 32.
  [1
 
-{C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/javaTabla.jpg>]
+{C:/Users/VALERY/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/javaTabla.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
+(Font)              <5> on input line 48.
 <images/vsjavaTabla.png, id=14, 197.98969pt x 111.41624pt>
 File: images/vsjavaTabla.png Graphic file (type png)
 <use images/vsjavaTabla.png>
-Package pdftex.def Info: images/vsjavaTabla.png  used on input line 49.
+Package pdftex.def Info: images/vsjavaTabla.png  used on input line 51.
 (pdftex.def)             Requested size: 172.5pt x 97.07414pt.
 <images/javaGrafica.png, id=16, 362.3136pt x 217.7736pt>
 File: images/javaGrafica.png Graphic file (type png)
 <use images/javaGrafica.png>
-Package pdftex.def Info: images/javaGrafica.png  used on input line 50.
+Package pdftex.def Info: images/javaGrafica.png  used on input line 52.
 (pdftex.def)             Requested size: 172.5pt x 103.68277pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 49--51
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 51--53
 [] [] 
  []
 
 <images/golangTabla.jpg, id=17, 386.94562pt x 228.855pt>
 File: images/golangTabla.jpg Graphic file (type jpg)
 <use images/golangTabla.jpg>
-Package pdftex.def Info: images/golangTabla.jpg  used on input line 56.
+Package pdftex.def Info: images/golangTabla.jpg  used on input line 58.
 (pdftex.def)             Requested size: 172.5pt x 102.02348pt.
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2023/02/27 1.9 listings language file
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 )
 
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:62: Package Listings Error: Couldn't load requested language.
+c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex:64: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 ...ang, caption=Ejemplo de código en Golang]
+l.64 ...ang, caption=Ejemplo de código en Golang]
                                                   
 The following languages weren't loadable:
     ,golang$
 This may cause errors in the sequel.
 
 
-c:/Users/santi/OneDrive/Documentos/GitHub/Taller-Interfaces/Taller-Latex/hola.tex:62: Package Listings Error: language golang undefined.
+c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex:64: Package Listings Error: language golang undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 ...ang, caption=Ejemplo de código en Golang]
+l.64 ...ang, caption=Ejemplo de código en Golang]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -197,15 +197,15 @@ If that doesn't work, type  X <return>  to quit.
 <images/golangvsjavaTabla.png, id=24, 341.02406pt x 125.71968pt>
 File: images/golangvsjavaTabla.png Graphic file (type png)
 <use images/golangvsjavaTabla.png>
-Package pdftex.def Info: images/golangvsjavaTabla.png  used on input line 99.
+Package pdftex.def Info: images/golangvsjavaTabla.png  used on input line 101.
 (pdftex.def)             Requested size: 172.5pt x 63.59247pt.
 <images/golangvsjavaGrafica.png, id=25, 362.3136pt x 217.7736pt>
 File: images/golangvsjavaGrafica.png Graphic file (type png)
 <use images/golangvsjavaGrafica.png>
-Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 100.
+Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 102.
 (pdftex.def)             Requested size: 172.5pt x 103.68277pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 99--101
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 101--103
 [] [] 
  []
 
@@ -213,49 +213,49 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 99--101
 <images/pythonTabla.jpg, id=29, 400.49625pt x 289.08pt>
 File: images/pythonTabla.jpg Graphic file (type jpg)
 <use images/pythonTabla.jpg>
-Package pdftex.def Info: images/pythonTabla.jpg  used on input line 108.
+Package pdftex.def Info: images/pythonTabla.jpg  used on input line 110.
 (pdftex.def)             Requested size: 172.5pt x 124.5137pt.
- (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) [4 <./images/golangvsjavaTabla.png> <./images/golangvsjavaGrafica.png> <./images/pythonTabla.jpg>] [5]
 <images/pythonvsjavaTabla.png, id=38, 386.94562pt x 121.20282pt>
 File: images/pythonvsjavaTabla.png Graphic file (type png)
 <use images/pythonvsjavaTabla.png>
-Package pdftex.def Info: images/pythonvsjavaTabla.png  used on input line 162.
+Package pdftex.def Info: images/pythonvsjavaTabla.png  used on input line 164.
 (pdftex.def)             Requested size: 172.5pt x 54.03217pt.
 File: images/golangvsjavaGrafica.png Graphic file (type png)
 <use images/golangvsjavaGrafica.png>
-Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 163.
+Package pdftex.def Info: images/golangvsjavaGrafica.png  used on input line 165.
 (pdftex.def)             Requested size: 172.5pt x 103.68277pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 162--164
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--166
 [] [] 
  []
 
 <images/c++Tabla.jpg, id=39, 394.47375pt x 251.43938pt>
 File: images/c++Tabla.jpg Graphic file (type jpg)
 <use images/c++Tabla.jpg>
-Package pdftex.def Info: images/c++Tabla.jpg  used on input line 169.
+Package pdftex.def Info: images/c++Tabla.jpg  used on input line 171.
 (pdftex.def)             Requested size: 172.5pt x 109.95073pt.
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Users\VALERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ) [6 <./images/pythonvsjavaTabla.png> <./images/c++Tabla.jpg>]
 <images/c++vsjavaTabla.png, id=44, 385.44pt x 140.77594pt>
 File: images/c++vsjavaTabla.png Graphic file (type png)
 <use images/c++vsjavaTabla.png>
-Package pdftex.def Info: images/c++vsjavaTabla.png  used on input line 204.
+Package pdftex.def Info: images/c++vsjavaTabla.png  used on input line 206.
 (pdftex.def)             Requested size: 172.5pt x 63.00273pt.
 <images/c++vsjavaGrafica.png, id=45, 362.3136pt x 217.7736pt>
 File: images/c++vsjavaGrafica.png Graphic file (type png)
 <use images/c++vsjavaGrafica.png>
-Package pdftex.def Info: images/c++vsjavaGrafica.png  used on input line 205.
+Package pdftex.def Info: images/c++vsjavaGrafica.png  used on input line 207.
 (pdftex.def)             Requested size: 172.5pt x 103.68277pt.
 
-Overfull \hbox (17.22221pt too wide) in paragraph at lines 204--206
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 206--208
 [][] [] 
  []
 
@@ -266,15 +266,15 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3443 strings out of 474486
- 53138 string characters out of 5743756
+ 3443 strings out of 474485
+ 53086 string characters out of 5743263
  1951542 words of memory out of 5000000
- 25726 multiletter control sequences out of 15000+600000
+ 25727 multiletter control sequences out of 15000+600000
  562659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,525b,1719s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on hola.pdf (7 pages, 332558 bytes).
+ 57i,6n,65p,509b,1719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\VALERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on hola.pdf (7 pages, 332857 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
