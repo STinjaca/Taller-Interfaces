@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Artyom.js</title>
+</head>
+
+<body>
+    <button id="btn">Permitir Síntesis de Voz</button>
+    <input type="text" id="transcriptOutput" placeholder="Transcripción de voz...">
+    
+    <script src="artyom.window.js"></script>
+    <script src="searchPokemon.js"></script> <!-- Importa tu archivo JS para la búsqueda de Pokémon -->
+    <script>
+        var Jarvis = new Artyom();
+
+        document.getElementById("btn").addEventListener("click", function () {
+            Jarvis.initialize({
+                lang: "es-ES",
+                continuous: true,
+                debug: true,
+                listen: true
+            });
+        }, false);
+
+        // Función para mostrar la transcripción
+        function showTranscript(transcript) {
+            var output = document.getElementById("transcriptOutput");
+            output.value = transcript;
+            Jarvis.fatality();
+
+            // Llama a la función en el archivo searchPokemon.js para buscar información sobre el Pokémon
+            searchPokemon(transcript.trim());
+        }
+
+        // Agregar un comando para transcribir lo que se dice
+        Jarvis.addCommands({
+            indexes: "*",
+            smart: true,
+            action: function (i, wildcard) {
+                showTranscript(wildcard.trim());
+            }
+        });
+    </script>
+</body>
+
+</html>
