@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1712294565.11398 "c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex" "hola.pdf" "hola" 1712294566.34056 2
-  "C:/Users/VALERY/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1712294525 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1712446676.8494 "c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex" "hola.pdf" "hola" 1712446677.93997 2
+  "C:/Users/VALERY/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1712424652 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/VALERY/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1712294537 11548 c9d0617a149b061115e50365ec13ee4e ""
   "C:/Users/VALERY/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1712294533 24225558 92f8cefc5b41be5eee0d5d0645bfab4b ""
   "C:/Users/VALERY/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -45,9 +45,9 @@
   "C:/Users/VALERY/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang2.sty" 1679057124 93648 37f37f89a55d35f95036cd331d48114f ""
   "C:/Users/VALERY/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang3.sty" 1679057124 90074 7af0c10701a4f48b0bf8886e6b18ec82 ""
   "C:/Users/VALERY/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1679057124 77021 d05e9115c67855816136d82929db8892 ""
-  "c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex" 1712294516 7343 6ae4299f10aa0fb04b6bf4229c40882b ""
-  "hola.aux" 1712294566 3801 ca8a41dad29f3b51cea56dec3624ec77 "pdflatex"
-  "hola.tex" 1712294516 7343 6ae4299f10aa0fb04b6bf4229c40882b ""
+  "c:/Users/VALERY/Downloads/Taller-Interfaces/Taller-Latex/hola.tex" 1712446674 7343 6ae4299f10aa0fb04b6bf4229c40882b ""
+  "hola.aux" 1712446677 3801 ca8a41dad29f3b51cea56dec3624ec77 "pdflatex"
+  "hola.tex" 1712446674 7343 6ae4299f10aa0fb04b6bf4229c40882b ""
   "images/c++Tabla.jpg" 1712215512 36085 9c204c5541beef225089fe3e4bde6276 ""
   "images/c++vsjavaGrafica.png" 1712219950 5974 e693501e6e567780c2eaaf0385d3e31c ""
   "images/c++vsjavaTabla.png" 1712219950 15485 258b53ab2b8497c28a94d52c5770c66c ""
